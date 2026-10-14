@@ -43,11 +43,17 @@ uv run python -m scripts.run_experiments
 ```
 
 The last command writes a plan only; training starts only with `--run`. The
-[ablation experiments](./ablation_experiments/README.md) have separate model
-variants and command entry points. Local datasets, token arrays, vocabularies,
+ablation experiments in `ablation_experiments/` have separate model variants
+and command entry points. Local datasets, token arrays, vocabularies,
 checkpoints, virtual environments, and generated results are intentionally
 excluded from Git. Download or prepare the data and train a model before using
 the generation command.
+
+## Other assignments
+
+- [Assignment 2: Systems](./assignment2-systems/)
+- [Assignment 3: Scaling](./assignment3-scaling/)
+- [Assignment 4: Data](./assignment4-data/)
 
 ### Download data
 Download the TinyStories data and a subsample of OpenWebText
